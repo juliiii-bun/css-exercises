@@ -20,6 +20,7 @@
   padding: 1px 32px;
   margin: 10px;
   justify-content: center;
+  align-items: center;
 }
 
 .logo, ul, a {
@@ -30,11 +31,13 @@
 .left-links {
   display: flex;
   justify-content: flex-start;
+  align-items: center;
 }
 
 .right-links {
   display: flex;
-  justify-content: flex-end; 
+  justify-content: flex-end;
+  align-items: center; 
 }
 
 ul {
