@@ -14,7 +14,6 @@ body {
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   display: flex;
   justify-content: space-between;
-  flex-wrap: nowrap;
   padding: 8px;
 }
 
@@ -33,14 +32,10 @@ body {
   font-style: italic;
 }
 
-#left {
+#left, #right{
   display: flex;
-}
-
-#right {
-  display: flex;
-  gap: 16px;
   align-items: center;
+  gap: 16px;
 }
 
 button {
@@ -60,5 +55,7 @@ a {
 ul {
   list-style-type: none;
   display: flex;
+  margin: 0;
+  padding: 0;
   gap: 16px;
 }
