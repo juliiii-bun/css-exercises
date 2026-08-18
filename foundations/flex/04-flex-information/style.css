@@ -11,30 +11,17 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
-  display: flex;
-  justify-content: center;
-  margin: 0;
-  padding: 0;
-  padding-bottom: 32px;
+  margin-bottom: 32px;
 }
 
 .container {
   display: flex;
   justify-content: center; 
-  align-items: center;
   gap: 52px;
-  flex-wrap: wrap;
-  flex: 0 1 auto;
 }
 
 .item {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 5px;
-  flex-wrap: wrap;
-  flex: 0 1 auto;
+  max-width: 200px;
 }
 
 /* do not edit this footer */
