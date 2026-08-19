@@ -22,6 +22,10 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   padding: 10px;
   max-width: 480px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-around;
 }
 
 .icon {
@@ -35,6 +39,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 3;
 }
 
 .icons {
