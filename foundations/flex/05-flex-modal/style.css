@@ -45,6 +45,7 @@ body {
 .icons {
   display: flex;
   justify-content: space-between;
+  order: 1;
 }
 
 .header {
@@ -73,6 +74,7 @@ body {
   justify-content: center;
   text-align: left;
   gap: 5px;
+  order: 2;
 }
 
 .buttons {
@@ -81,6 +83,7 @@ body {
   text-align: center;
   gap: 5px;
   margin: 15px;
+  order: 3;
 }
 
 button {
