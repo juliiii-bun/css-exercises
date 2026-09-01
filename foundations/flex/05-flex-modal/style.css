@@ -20,7 +20,8 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
-  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
   max-width: 480px;
   display: flex;
   flex-direction: column;
@@ -39,13 +40,20 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-shrink: 3;
+  margin-top: 20px;
 }
 
 .icons {
   display: flex;
   justify-content: space-between;
-  order: 1;
+  align-items: center;
+}
+
+.one {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 10px;
 }
 
 .header {
@@ -70,11 +78,13 @@ body {
 
 .center {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
+  align-items: center;
   text-align: left;
   gap: 5px;
   order: 2;
+  padding-left: 55px;
 }
 
 .buttons {
@@ -84,6 +94,7 @@ body {
   gap: 5px;
   margin: 15px;
   order: 3;
+  padding-left: 40px;
 }
 
 button {
