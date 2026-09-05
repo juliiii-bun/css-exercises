@@ -6,18 +6,41 @@ body {
   flex-direction: column;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-start;
+}
+
+ul {
+  list-style: none;
+}
+
 .header {
   font-size: 32px;
   width: 900;
   height: 72px;
   background: darkmagenta;
   color: white;
+  font-weight: bold;
+}
+
+.card {
+  border: 5px;
+  border-color: #eee;
+
 }
 
 .footer {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
 
 .sidebar {
