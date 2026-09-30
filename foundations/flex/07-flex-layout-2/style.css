@@ -9,10 +9,12 @@ body {
 
 a {
   color: white;
+  font-size: 24px;
   text-decoration: none;
   font-weight: bold;
   display: flex;
   justify-content: flex-start;
+  padding: 16px;
 }
 
 ul {
@@ -26,6 +28,10 @@ ul {
   background: darkmagenta;
   color: white;
   font-weight: bold;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 16px;
 }
 
 .card {
@@ -33,7 +39,7 @@ ul {
   border-color: #eee;
   gap: 10px;
   margin: 20px;
-  padding: 5px;
+  padding: 48px;
 }
 
 .info {
@@ -43,7 +49,6 @@ ul {
 .left {
   width: auto;
   display: flex;
-  align-items: stretch;
 }
 
 .footer {
@@ -60,6 +65,8 @@ ul {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
+  display: flex;
+  flex-shrink: none;
 }
 
 .card {
